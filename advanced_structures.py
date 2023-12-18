@@ -11,7 +11,7 @@ from collections import OrderedDict, defaultdict, ChainMap
 Ordered dictionaries (called with OrderedDict) have the ability to 'remember' the insertion order of keys.
 They are not part of base Python and must be imported from the collections library: from collections import OrderedDict
 
-Note that as of Python 3.7, standard dictionaries do preserve key insertion order.
+Note that as of Python 3.7, standard dictionaries *do* preserve key insertion order.
 However, if key order is important in an implementation, you should communicate that clearly by using an OrderedDict.
 
 OrderedDict instances have a .move_to_end() method that is unavailable on normal dict() instances. 
