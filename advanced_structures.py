@@ -47,8 +47,7 @@ my_default_dict['first_key'] = 'Present'
 """
 1C: CHAIN MAPS
 Using a chain map allows you to group multiple dictionaries into a single mapping.
-L
-ookup calls search the underlying mappings one by one until the specified key is found.
+Lookup calls search the underlying mappings one by one until the specified key is found.
 
 They are not part of base Python and must be imported from the collections library.
 
